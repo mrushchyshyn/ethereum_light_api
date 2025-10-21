@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ethereum_light_api"
+version = "0.1.0"
+description = "Lightweight, dependency-free Ethereum API in pure Python."
+authors = [{ name = "mrushchyshyn", email = "markorushchyshyn@gmail.com" }]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+keywords = ["ethereum", "blockchain", "crypto", "web3", "pure-python"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/mrushchyshyn/ethereum_light_api"
