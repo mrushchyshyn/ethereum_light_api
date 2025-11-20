@@ -33,7 +33,7 @@ All examples use the **Ethereum Sepolia testnet** RPC endpoint.
 from ethereum_light_api import eth_get_block_number
 
 # Public RPC endpoint (Sepolia testnet)
-RPC_URL = "https://eth-sepolia.public.blastapi.io"
+RPC_URL = "https://ethereum-sepolia-rpc.publicnode.com"
 
 # Fetch latest block
 block_number = eth_get_block_number(RPC_URL)
@@ -62,7 +62,7 @@ print("Address:", address)
 ```python
 from ethereum_light_api import eth_get_transaction_count
 
-RPC_URL = "https://eth-sepolia.public.blastapi.io"
+RPC_URL = "https://ethereum-sepolia-rpc.publicnode.com"
 address = "0x..."
 
 # Get nonce considering pending transactions (recommended before sending)
@@ -81,7 +81,7 @@ print("Nonce (latest):", nonce_latest)
 from ethereum_light_api import eth_get_balance
 
 # RPC endpoint and address from previous example
-RPC_URL = "https://eth-sepolia.public.blastapi.io"
+RPC_URL = "https://ethereum-sepolia-rpc.publicnode.com"
 address = "0x..."  # example address
 
 # Get balance in wei
@@ -97,7 +97,7 @@ print("Balance (ETH):", balance / 1e18)
 ```python
 from ethereum_light_api import create_raw_tx, eth_send_raw_transaction
 
-RPC_URL = "https://eth-sepolia.public.blastapi.io"
+RPC_URL = "https://ethereum-sepolia-rpc.publicnode.com"
 PRIVATE_KEY = "0x..."
 chain_id = 11155111  # Sepolia testnet
 to_addr = "0x..."  # receiver address
@@ -128,7 +128,7 @@ print("Transaction hash:", result)
 ```python
 from ethereum_light_api import eth_call_contract
 
-RPC_URL = "https://eth-sepolia.public.blastapi.io"
+RPC_URL = "https://ethereum-sepolia-rpc.publicnode.com"
 
 # DAI token (example) and user address
 token_addr = "0x..."
@@ -153,7 +153,7 @@ print("Token balance:", int(raw_result, 16) / 1e18)
 ```python
 from ethereum_light_api import build_contract_tx_data, create_raw_tx, eth_send_raw_transaction
 
-RPC_URL = "https://eth-sepolia.public.blastapi.io"
+RPC_URL = "https://ethereum-sepolia-rpc.publicnode.com"
 PRIVATE_KEY = "0x..."
 chain_id = 11155111  # Sepolia testnet
 
