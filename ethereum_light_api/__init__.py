@@ -17,7 +17,7 @@ Contact: markorushchyshyn@gmail.com
 __title__ = "ethereum_light_api"
 __description__ = "Lightweight, dependency-free Ethereum API in pure Python."
 __url__ = "https://github.com/mrushchyshyn/ethereum_light_api"
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __author__ = "mrushchyshyn"
 __author_email__ = "markorushchyshyn@gmail.com"
 __license__ = "MIT"
@@ -44,4 +44,5 @@ __all__ = [
     "eth_get_balance",
     "eth_get_transaction_count",
     "eth_send_raw_transaction",
+
 ]
