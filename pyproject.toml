@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ethereum_light_api"
-version = "0.1.0"
+version = "0.1.1"
 description = "Lightweight, dependency-free Ethereum API in pure Python."
 authors = [{ name = "mrushchyshyn", email = "markorushchyshyn@gmail.com" }]
 readme = "README.md"
@@ -18,4 +18,5 @@ classifiers = [
 ]
 
 [project.urls]
+
 Homepage = "https://github.com/mrushchyshyn/ethereum_light_api"
